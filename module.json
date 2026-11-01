@@ -1,0 +1,25 @@
+{
+  "id": "skill-challenge-scales",
+  "title": "Skill Challenge Scales",
+  "description": "Испытания навыков с наглядными весами: алмазы за успехи, черепа за провалы. Для D&D 5e.",
+  "version": "1.1.1",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "authors": [
+    { "name": "GM" }
+  ],
+  "esmodules": ["scripts/main.mjs"],
+  "styles": ["styles/scales.css"],
+  "languages": [
+    { "lang": "ru", "name": "Русский", "path": "languages/ru.json" },
+    { "lang": "en", "name": "English", "path": "languages/en.json" }
+  ],
+  "relationships": {
+    "systems": [
+      { "id": "dnd5e", "type": "system", "compatibility": { "minimum": "4.0.0" } }
+    ]
+  },
+  "socket": true
+}

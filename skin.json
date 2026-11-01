@@ -1,0 +1,53 @@
+{
+  "name": "Мои весы",
+  "canvas": [
+    1000,
+    800
+  ],
+  "layers": {
+    "base": "base.png",
+    "panLeft": "pan_l.png",
+    "panRight": "pan_r.png",
+    "beam": "beam.png",
+    "hub": "hub.png"
+  },
+  "pivot": [
+    500,
+    200
+  ],
+  "hangLeft": [
+    150,
+    220
+  ],
+  "hangRight": [
+    850,
+    220
+  ],
+  "landLeft": {
+    "x": 50,
+    "y": 440,
+    "w": 200,
+    "h": 80
+  },
+  "landRight": {
+    "x": 750,
+    "y": 440,
+    "w": 200,
+    "h": 80
+  },
+  "maxTilt": 14,
+  "counterOffset": 100,
+  "success": {
+    "files": [
+      "gem1.png"
+    ],
+    "size": 56
+  },
+  "failure": {
+    "files": [
+      "skull1.png"
+    ],
+    "size": 56
+  },
+  "itemsLayer": "back"
+}
